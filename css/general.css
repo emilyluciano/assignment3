@@ -19,7 +19,6 @@ html {
 	text-size-adjust: 100%;
     background-color: white;
     font-size: 100%;
-    
 }
 
 img {
@@ -33,7 +32,7 @@ body {
 }
 
 .selected { 
-    background-color: white;
+    background-color:#FFCCCC;
 }
 
 header {
@@ -61,7 +60,6 @@ header {
     margin: 0;
     padding: 0;
     display: inline;
-    border: 2px solid lightgray;
 }
 
 .nav-top a,
@@ -78,7 +76,7 @@ header {
 .billboard {
     overflow:hidden;
     background-image: url(../images/collage.jpg);
-    background-size: 30rem;
+    background-size: 35rem;
 }
 
 h1 {
@@ -95,9 +93,10 @@ h1 {
 
 h2 {
     font-family: 'Vidaloka';
+    font-size: 2rem;
     margin: 0;
     padding: 5%;
-    color: white;
+    color:white;
     text-align: right;
 }
 
@@ -200,7 +199,7 @@ h2 {
     background-position: center top;
     background-repeat: no-repeat;
     background-color: white;
-    color: black;
+    color: #996699;
     text-decoration: none;
     font-family: 'Vidaloka';
     font-size: 1rem;
@@ -208,7 +207,6 @@ h2 {
     margin: 2rem;
     padding: 100% 0 0;
 }
-
 
 figure {
 	margin: 0 auto 1.5rem;
@@ -231,8 +229,8 @@ figure {
 .feature1 {
     position: relative;
     overflow:hidden;
-    background-image: url(../images/clutch.jpg);
-    background-size: 10rem;
+    background-image: url(../images/clutchh.jpg);
+    background-size: 9rem;
     background-repeat: no-repeat;
     background-position: left;
     margin: 1rem;
@@ -241,12 +239,13 @@ figure {
 
 .feature1 h3 {
     line-height: 2rem;
-    margin:  2rem;
+    margin: 1rem;
     text-align: right;
-    font-family: 'Vidaloka';
+    font-family: 'Courgette';
     font-size: 1.5rem;
     color: #CC9999;
-    padding: 0;      
+    padding: 1.2rem;
+    text-decoration: none;
 }
 
 figure a {
@@ -279,10 +278,11 @@ footer {
 }
 
 p {
-    font-size:1.4rem;
+    font-size:1.2rem;
     font-family: 'vidaloka';
     margin:1rem;
     padding:0;
+    text-align: left;
 }
 
 footer p {
@@ -303,11 +303,9 @@ footer p {
 }
 
 h3, h4 {
-    font-size: 1.2rem;
-    font-family: 'cinzel';
-    margin:2rem;
+    font-size: 1.7rem;
+    font-family: 'Courgette';
+    margin: .7rem;
     padding: 0;
     text-align:left;
-}
-
-
+} 
